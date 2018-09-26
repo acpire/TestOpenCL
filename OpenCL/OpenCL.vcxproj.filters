@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
+    <ClCompile Include="OpenCL.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <None Include="Code.cl">
       <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="TestOpenCL.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
+    </None>
   </ItemGroup>
 </Project>
